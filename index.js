@@ -75,14 +75,6 @@
                 }
             });
         });
-        
-        // Form submission
-        const contactForm = document.querySelector('.contact-form form');
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Pesan Anda telah terkirim! Saya akan segera menghubungi Anda.');
-            contactForm.reset();
-        });
 
         // efek ketik
           const text = " Halo, Saya Mariono Silaban";
