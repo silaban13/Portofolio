@@ -7,6 +7,15 @@
 - IBM Granite AI
 - Git & GitHub
 
+## Installation on Your Computer
+- Clone this repository using the following command:
+
+     git clone https://github.com/silaban13/Portofolio.git
+
+- Navigate to the project directory:
+
+   cd Portofolio
+
 ## Features
 - Tampilan responsif (mobile & desktop)
 - Halaman About, Projects, dan Contact
