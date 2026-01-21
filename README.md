@@ -40,3 +40,6 @@ Project ini dibuat untuk keperluan pembelajaran dan portofolio pribadi.
 
 ## AI Support
 Proyek ini menggunakan teknologi AI (IBM Granite) untuk menghasilkan deskripsi proyek secara otomatis, sehingga membantu dalam menampilkan informasi yang lebih menarik dan profesional di portofolio.
+
+
+# Konsep Sistem Komponent
