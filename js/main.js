@@ -39,13 +39,14 @@ const texts = [
   "Belajar Backend"
 ];
 
-const typingText = document.getElementById("typing-text");
-
 let textIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
 
 function typeEffect() {
+  const typingText = document.getElementById("typing-text");
+  if (!typingText) return;
+
   const currentText = texts[textIndex];
 
   if (!isDeleting) {
@@ -68,4 +69,7 @@ function typeEffect() {
   setTimeout(typeEffect, isDeleting ? 50 : 100);
 }
 
-typeEffect();
+if (document.body.classList.contains('home')) {
+  typeEffect();
+}
+
