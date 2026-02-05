@@ -328,7 +328,6 @@
     border-radius: 24px;
     overflow: hidden;
     transition: border-radius 0.35s ease, width 0.35s ease; 
-    background-color: red;
   }
 
   .hero__img {
